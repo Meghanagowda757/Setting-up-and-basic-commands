@@ -1,0 +1,9 @@
+mkdir GitDemo
+cd GitDemo
+git init
+touch file1.txt
+git status
+git add file1.txt
+git status
+git commit-m "Add file1"
+git log--oneline
